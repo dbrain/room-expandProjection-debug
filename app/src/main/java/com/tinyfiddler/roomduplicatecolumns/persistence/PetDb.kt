@@ -13,7 +13,7 @@ import com.tinyfiddler.roomduplicatecolumns.persistence.models.Dog
         Cat::class,
         Bird::class
     ],
-    version = 4
+    version = 1
 )
 abstract class PetDb : RoomDatabase() {
     abstract fun petDao(): PetDao
